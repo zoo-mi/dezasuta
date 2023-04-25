@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  /* 横の並び */
+  align-items: center;
+  /* 縦の並び */
+  list-style: none;
+  /* 横の点(・)をなくす (読み方：ナン)*/
+  max-width: 960px;
+  /* 横に幅をつける */
+  margin: 0 auto;
+  /* ulを真ん中に持ってくる */
+  border: 1px solid #000;
+  /* ulの幅がわかりやすいように授業内でつけている */
+}
+
+ul li {
+  padding: 0 20px;
+  background-color: gray;
+}
+
+.wrap {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  /* 折り返してくれる */
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.wrap div {
+  width: 30%;
+  height: 300px;
+  background: red;
+  color: #fff;
+  text-align: center;
+  /* 字を箱の真ん中に */
+  line-height: 300px;
+  /* 箱と同じ高さにすることで上下中央にしている */
+  margin-bottom: 10px;
+}
