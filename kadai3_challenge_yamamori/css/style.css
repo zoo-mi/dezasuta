@@ -1,0 +1,129 @@
+@charset "utf-8";
+
+/* cssリセット */
+
+/*利用するタグによってこちらの内容は増やす*/
+
+html,
+body,
+h1,
+h2,
+h3,
+p,
+dl,
+dt,
+dd,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  /*デフォルトの文字色、font-familyを予め当てておく*/
+  color: #000;
+  /* font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ",
+    "Hiragino Kaku Gothic ProN", "Hiragino Sans", sans-serif; */
+  font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN",
+    "Yu Mincho", "MS PMincho", serif;
+}
+
+a {
+  /*下線を消す*/
+  text-decoration: none;
+  /*色を消す*/
+  color: inherit;
+}
+
+ul {
+  /*左の「・」を消す*/
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: bottom;
+  border: none;
+}
+/* ----------ここまでリセットcss------------ */
+.wrap {
+  max-width: 960px;
+  margin: 40px auto;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.column {
+  flex-direction: column;
+}
+.ttl {
+  font-size: 40px;
+  font-weight: 700;
+}
+.sub_ttl {
+  color: #808080;
+  padding-top: 5px;
+}
+.flex {
+  display: flex;
+}
+.nav li {
+  padding: 45px 40px 0 0;
+}
+.nav ul li:last-child {
+  padding-right: 200px;
+}
+.mv {
+  margin-top: 40px;
+}
+.theme {
+  color: #808080;
+  font-size: 25px;
+  margin: 100px 0;
+  line-height: 1.8;
+}
+.date {
+  width: 500px;
+  color: #808080;
+  /* margin-right: 200px; */
+}
+.txt {
+  padding: 20px 0 100px 0;
+  line-height: 1.5;
+  color: #808080;
+  font-size: 18px;
+}
+.page_list {
+  padding-left: 40%;
+  padding-bottom: 100px;
+  border-bottom: 1px solid #808080;
+  margin-bottom: 50px;
+}
+.page {
+  color: #808080;
+  padding: 15px 20px;
+  border: 1px solid #808080;
+  margin-left: 10px;
+}
+.image_circle {
+  width: 800px;
+  height: 110px;
+  border-radius: 50%;
+  background-image: url(../images/profile.jpg);
+  background-position: 44% 35%;
+}
+.name_sns {
+  padding: 30px 20px;
+  display: inline;
+}
+.name {
+  /* display: inline;
+  text-align: center; */
+  padding-left: 10px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.sns img {
+  width: 3%;
+  padding: 5px 5px;
+  display: inline;
+}
