@@ -15,6 +15,7 @@
   text-align: center;
   margin-top: -35px;
 }
+<<<<<<< HEAD
 @media screen and (max-width: 1100px) {
   .works_page_top {
     padding-bottom: 50px;
@@ -40,6 +41,8 @@
     margin-top: -20px;
   }
 }
+=======
+>>>>>>> 2edef7db6271ed0ef191fc8ff6e605035903bdc0
 
 /* WEB */
 .web {
@@ -165,6 +168,7 @@
     font-size: 18px;
   }
   .web ul,
+<<<<<<< HEAD
   .banner ul,
   .movie ul,
   .print ul {
@@ -185,14 +189,54 @@
   }
   .web ul li a .works04 {
     top: 209px;
+=======
+  .banner ul {
+    max-width: 800px;
+  }
+  .web ul li a .thumb {
+    width: 240px;
+    height: 115px;
+    border-radius: 15px;
+    padding-top: 20px;
+  }
+  .web ul li a .works02 {
+    position: absolute;
+    left: 280px;
+    width: 240px;
+    height: 115px;
+    border-radius: 15px;
+    padding-top: 20px;
+  }
+  .web ul li a .works03 {
+    left: 560px;
+    width: 240px;
+    height: 115px;
+    border-radius: 15px;
+    padding-top: 20px;
+  }
+  .web ul li a .works04 {
+    top: 209px;
+    width: 240px;
+    height: 115px;
+    border-radius: 15px;
+    padding-top: 20px;
+>>>>>>> 2edef7db6271ed0ef191fc8ff6e605035903bdc0
   }
   .web ul li a .works05 {
     top: 209px;
     left: 280px;
+<<<<<<< HEAD
+=======
+    width: 240px;
+    height: 115px;
+    border-radius: 15px;
+    padding-top: 20px;
+>>>>>>> 2edef7db6271ed0ef191fc8ff6e605035903bdc0
   }
   .web ul li a .works06 {
     top: 209px;
     left: 560px;
+<<<<<<< HEAD
   }
   .web .thumb .works_content_ttl,
   .banner .thumb .works_content_ttl {
@@ -236,6 +280,21 @@
   }
   .web ul li a .thumb {
     display: none;
+=======
+    width: 240px;
+    height: 115px;
+    border-radius: 15px;
+    padding-top: 20px;
+  }
+  .web .thumb .works_content_ttl,
+  .banner .thumb .works_content_ttl {
+    font-size: 15px;
+    padding: 15px 15px;
+  }
+  .web .thumb .works_content_txt,
+  .banner .thumb .works_content_txt {
+    line-height: 1.3;
+>>>>>>> 2edef7db6271ed0ef191fc8ff6e605035903bdc0
   }
 }
 /* BANNER */
@@ -288,13 +347,23 @@
 .banner ul li a .thumb:hover {
   opacity: 1;
 }
+<<<<<<< HEAD
 .banner .thumb .works_content_ttl {
+=======
+.banner .works01 .works_content_ttl,
+.banner .works03 .works_content_ttl {
+>>>>>>> 2edef7db6271ed0ef191fc8ff6e605035903bdc0
   font-size: 15px;
   padding: 21px 0 55px 0;
   border-bottom: #fdf3e7 1px solid;
   color: #fdf3e7;
 }
+<<<<<<< HEAD
 .banner .thumb .works_content_txt {
+=======
+.banner .works01 .works_content_txt,
+.banner .works03 .works_content_txt {
+>>>>>>> 2edef7db6271ed0ef191fc8ff6e605035903bdc0
   font-size: 13px;
   color: #fdf3e7;
   line-height: 1.6;
@@ -331,6 +400,7 @@
   }
   .banner ul li a .thumb {
     width: 240px;
+<<<<<<< HEAD
     padding: 40px 0;
   }
   .banner ul li a .works02 {
@@ -385,6 +455,41 @@
   }
   .banner ul li a .thumb {
     display: none;
+=======
+    height: 115px;
+    border-radius: 15px;
+    padding-top: 20px;
+  }
+  .banner ul li a .works02 {
+    position: absolute;
+    left: 280px;
+    width: 240px;
+    height: 115px;
+    border-radius: 15px;
+    padding-top: 20px;
+  }
+  .banner ul li a .works03 {
+    left: 560px;
+    width: 240px;
+    height: 115px;
+    border-radius: 15px;
+    padding-top: 20px;
+  }
+  .banner ul li a .works04 {
+    top: 209px;
+    width: 240px;
+    height: 115px;
+    border-radius: 15px;
+    padding-top: 20px;
+  }
+  .banner ul li a .works05 {
+    top: 209px;
+    left: 280px;
+    width: 240px;
+    height: 115px;
+    border-radius: 15px;
+    padding-top: 20px;
+>>>>>>> 2edef7db6271ed0ef191fc8ff6e605035903bdc0
   }
 }
 /* MOVIE */
@@ -483,6 +588,7 @@
     padding-top: 20px;
   }
 }
+<<<<<<< HEAD
 @media screen and (max-width: 767px) {
   .movie ul {
     max-width: 315px;
@@ -494,6 +600,8 @@
     display: none;
   }
 }
+=======
+>>>>>>> 2edef7db6271ed0ef191fc8ff6e605035903bdc0
 /* PRINT */
 .print {
   background-color: #fffefc;
@@ -592,6 +700,7 @@
     padding-top: 20px;
   }
 }
+<<<<<<< HEAD
 @media screen and (max-width: 767px) {
   .print ul {
     max-width: 315px;
@@ -600,6 +709,9 @@
     display: none;
   }
 }
+=======
+
+>>>>>>> 2edef7db6271ed0ef191fc8ff6e605035903bdc0
 /* LOGO */
 .logo {
   background-color: #fdf3e7;
@@ -609,6 +721,7 @@
 .logo ul li {
   background-color: #fffefc;
   border-radius: 30px;
+<<<<<<< HEAD
   width: 30%;
   aspect-ratio: 1 / 1;
   position: relative;
@@ -628,6 +741,14 @@
 }
 .logo .logo_lists04 {
   margin: 0 15%;
+=======
+}
+.logo .logo_img {
+  max-width: 150px;
+}
+.logo .logo_img03 {
+  max-width: 200px;
+>>>>>>> 2edef7db6271ed0ef191fc8ff6e605035903bdc0
 }
 .logo ul li a .thumb {
   opacity: 0;
@@ -635,6 +756,7 @@
   top: 0;
   left: 0;
   width: 300px;
+<<<<<<< HEAD
   border-radius: 30px;
   background: #d0ab80;
   transition: 0.3s;
@@ -644,11 +766,50 @@
   padding-bottom: 40px;
 }
 .logo .works_content_txt {
+=======
+  border-radius: 20px;
+  background: #d0ab80;
+  transition: 0.3s;
+  padding-top: 40px;
+}
+.logo ul li a .works02 {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 350px;
+  width: 300px;
+  border-radius: 20px;
+  background: #d0ab80;
+  transition: 0.3s;
+  padding-top: 40px;
+}
+.logo ul li a .works03 {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 700px;
+  width: 300px;
+  border-radius: 20px;
+  background: #d0ab80;
+  transition: 0.3s;
+  padding-top: 40px;
+}
+.logo ul li a .works04 {
+  opacity: 0;
+  position: absolute;
+  top: 244px;
+  left: 0px;
+  width: 300px;
+  border-radius: 20px;
+  background: #d0ab80;
+  transition: 0.3s;
+>>>>>>> 2edef7db6271ed0ef191fc8ff6e605035903bdc0
   padding-top: 40px;
 }
 .logo ul li a .thumb:hover {
   opacity: 1;
 }
+<<<<<<< HEAD
 .logo ul .two_flex {
   display: flex;
   width: 100%;
@@ -661,6 +822,8 @@
   padding: 135px 0;
   color: #fdf3e7;
 }
+=======
+>>>>>>> 2edef7db6271ed0ef191fc8ff6e605035903bdc0
 @media screen and (max-width: 1100px) {
   .logo {
     padding-top: 100px;
@@ -690,11 +853,15 @@
     padding-top: 20px;
   }
 }
+<<<<<<< HEAD
 @media screen and (max-width: 767px) {
   .logo ul li a .thumb {
     display: none;
   }
 }
+=======
+
+>>>>>>> 2edef7db6271ed0ef191fc8ff6e605035903bdc0
 /* CONTACT */
 .contact {
   padding: 145px 0 100px;
@@ -786,6 +953,7 @@
   .contact .sp_only {
     display: block;
   }
+<<<<<<< HEAD
   .contact {
     margin: 0;
     padding: 45px 0;
@@ -798,6 +966,8 @@
     font-size: 12px;
     margin-bottom: 30px;
   }
+=======
+>>>>>>> 2edef7db6271ed0ef191fc8ff6e605035903bdc0
   .contact_btn {
     flex-direction: column;
   }
@@ -820,6 +990,7 @@
     padding-top: 40px;
   }
 }
+<<<<<<< HEAD
 @media screen and (max-width: 767px) {
   .footer {
     background-color: #fdf3e7;
@@ -1043,3 +1214,5 @@
     right: 20px;
   }
 }
+=======
+>>>>>>> 2edef7db6271ed0ef191fc8ff6e605035903bdc0

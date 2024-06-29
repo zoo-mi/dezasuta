@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMILEY-WORKS-</title>
+    <meta name="description" content="山森和美のworksページです。">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/lovely-time" rel="stylesheet">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <div class="header_logo"><a href="index.html"><img class="smiley_logo" src="../images/nav_logo@2x.webp"
+                        alt="SMILEY"></a></div>
+
+            <div class="decoration_set">
+                <div class="decoration"></div>
+                <div class="to_contact"><a href="">
+                        <p class="lovely_time">CONTACT</p>
+                        <p>コチラから</p>
+                        <div class="thumb">
+                            <p class="lovely_time">CONTACT</p>
+                            <p>コチラから</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="sp_btn"><span></span></div>
+            <nav class="sp_nav">
+                <ul>
+                    <li><a href="index.html"><img src="../images/top_hover_nav@2x.webp" alt="TOP"></a>
+                    </li>
+                    <li><a href="about.html"><img src="../images/about_hover_nav@2x.webp" alt="ABOUT US"></a></li>
+                    <li><a href="works.html"><img src="../images/works_hover_nav@2x.webp" alt="WORKS"></a>
+                    </li>
+                    <li><a href="contact.html"><img src="../images/contact_hover_nav@2x.webp" alt="CONTACT"></a>
+                    </li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+    <div>
+        <nav class="pc_nav">
+            <ul>
+                <li class="nav_list01"><a href="index.html"><img src="../images/top_nav@2x.webp" alt="TOP">
+                        <div class="thumb"><img src="../images/top_hover_nav@2x.webp" alt=""></div>
+                    </a></li>
+                <li class="nav_list02"><a href="about.html"><img src="../images/about_nav@2x.webp" alt="ABOUT US">
+                        <div class="thumb02"><img src="../images/about_hover_nav@2x.webp" alt=""></div>
+                    </a></li>
+                <li class="nav_list03"><a href="/works.html"><img src="../images/works_hover_nav@2x.webp" alt="WORKS">
+                        <div class="thumb03"><img src="images/works_hover_nav@2x.webp" alt=""></div>
+                    </a></li>
+                <li class="nav_list04"><a href="contact.html"><img src="../images/contact_nav@2x.webp" alt="CONTACT">
+                        <div class="thumb04"><img src="../images/contact_hover_nav@2x.webp" alt=""></div>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <h1 class="content_web">WEB</h1>
+    <div class="content_web_yourcraft">
+        <p class="content_web_ttl">Your Craft<span class="content_web_sub_ttl">WEBサイト制作　DIYプランのご案内</span></p><img src=""
+            alt="">
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+    <footer class="footer">
+        <div>
+            <p class="footer_txt"><small>&copy;2024 KazumiYamamori All Rights Reserved.</small></p>
+        </div>
+    </footer>
+    <script>
+        $(function () {
+            $('.sp_btn,.sp_nav li').on('click', function () {
+                $('.sp_nav').fadeToggle();
+                $('.sp_btn').toggleClass('open')
+            });
+        });
+
+    </script>
+
+</body>
+
+</html>
