@@ -354,6 +354,9 @@
   }
 }
 /* skill_web */
+.sp_only {
+  display: none;
+}
 .skill_web {
   background-color: #fdf3e7;
   padding: 65px 0 130px;
@@ -378,7 +381,7 @@
   height: 200px;
   line-height: 138px;
 }
-.skill_web_lists li img {
+.skill_web_lists_img {
   width: 70%;
 }
 .skill_web_lists li img.skill_web_bnr {
@@ -536,7 +539,7 @@
     height: 150px;
     line-height: 90px;
   }
-  .skill_web_lists li img {
+  .skill_web_lists_img {
     width: 60%;
   }
   .skill_web ul li .skill_ttl {
@@ -551,7 +554,11 @@
   }
 }
 @media screen and (max-width: 767px) {
-  .skill_web .sp_only {
+  .skill_web .sp_only,
+  .skill_graphic .sp_only {
+    display: block;
+  }
+  .skill_web .pc_only {
     display: none;
   }
   .skill_web {
@@ -565,18 +572,27 @@
     max-width: 50px;
   }
   .skill_web ul {
-    max-width: 100%;
+    max-width: 315px;
     flex-direction: column;
   }
   .skill_web ul li {
     margin: 0 auto;
-    width: 100%;
+    width: 315px;
     height: 0;
-    padding: 50px 0;
+    padding: 100px 0;
+    background-color: #fffefc;
   }
-  .skill_web_lists img {
-    width: 30%;
+  .skill_web ul li + li {
+    margin-top: 45px;
+    margin-left: 0;
+  }
+  .skill_web ul li .skill_ttl {
+    margin-top: 0;
+    margin-bottom: 5px;
+  }
+  .skill_web_lists_img {
     display: block;
+    margin: 0 auto;
   }
 }
 /* skill_graphic */
@@ -589,7 +605,7 @@
   text-align: center;
 }
 .skill_graphic .section_graphic_ttl_img {
-  width: 20%;
+  width: 30%;
 }
 .skill_graphic ul {
   display: flex;
@@ -604,7 +620,7 @@
   height: 200px;
   line-height: 138px;
 }
-.skill_graphic ul li img {
+.skill_graphic_lists_img {
   width: 38%;
 }
 .skill_graphic ul li img.graphic_logoicon {
@@ -623,7 +639,7 @@
     height: 150px;
     line-height: 86px;
   }
-  .skill_graphic ul li img {
+  .skill_graphic_lists_img {
     width: 30%;
   }
   .skill_graphic ul li img.graphic_logoicon {
@@ -631,6 +647,31 @@
   }
   .skill_graphic ul li .skill_ttl {
     font-size: 16px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .skill_graphic ul {
+    max-width: 315px;
+    flex-direction: column;
+  }
+  .skill_graphic ul li {
+    margin: 0 auto;
+    width: 315px;
+    height: 0;
+    padding: 100px 0;
+    background-color: #fdf3e7;
+  }
+  .skill_graphic ul li + li {
+    margin-top: 45px;
+  }
+  .skill_graphic ul li .skill_ttl {
+    margin-top: 0;
+    margin-bottom: 5px;
+  }
+  .skill_graphic_lists_img {
+    width: 45%;
+    display: block;
+    margin: 0 auto;
   }
 }
 /* WORKS */

@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="./js/script.js"></script>
 
 </head>
 
@@ -37,10 +38,10 @@
                 <ul>
                     <li><a href="index.html"><img src="images/top_hover_nav@2x.webp" alt="TOP"></a>
                     </li>
-                    <li><a href="about.html"><img src="images/about_hover_nav@2x.webp" alt="ABOUT US"></a></li>
-                    <li><a href="works.html"><img src="images/works_hover_nav@2x.webp" alt="WORKS"></a>
+                    <li><a href="./about/index.html"><img src="images/about_hover_nav@2x.webp" alt="ABOUT US"></a></li>
+                    <li><a href="./works/index.html"><img src="images/works_hover_nav@2x.webp" alt="WORKS"></a>
                     </li>
-                    <li><a href="contact.html"><img src="images/contact_hover_nav@2x.webp" alt="CONTACT"></a>
+                    <li><a href="./contact/index.html"><img src="images/contact_hover_nav@2x.webp" alt="CONTACT"></a>
                     </li>
                 </ul>
             </nav>
@@ -55,13 +56,14 @@
                             <img .pc_nav_btng src="images/top_hover_nav@2x.webp" alt="">
                         </div>
                     </a></li>
-                <li class="nav_list02"><a href="about.html"><img src="images/about_nav@2x.webp" alt="ABOUT US">
+                <li class="nav_list02"><a href="./about/index.html"><img src="images/about_nav@2x.webp" alt="ABOUT US">
                         <div class="thumb thumb02"><img .pc_nav_btn src="images/about_hover_nav@2x.webp" alt=""></div>
                     </a></li>
-                <li class="nav_list03"><a href="works.html"><img src="images/works_nav@2x.webp" alt="WORKS">
+                <li class="nav_list03"><a href="./works/index.html"><img src="images/works_nav@2x.webp" alt="WORKS">
                         <div class="thumb thumb03"><img .pc_nav_btn src="images/works_hover_nav@2x.webp" alt=""></div>
                     </a></li>
-                <li class="nav_list04"><a href="contact.html"><img src="images/contact_nav@2x.webp" alt="CONTACT">
+                <li class="nav_list04"><a href="./contact/index.html"><img src="images/contact_nav@2x.webp"
+                            alt="CONTACT">
                         <div class="thumb thumb04"><img .pc_nav_btn src="images/contact_hover_nav@2x.webp" alt=""></div>
                     </a>
                 </li>
@@ -143,42 +145,71 @@
         <ul class="skill_web_lists">
             <li class="skill_red">
                 <a href="">
-                    <img src="images/web_design_icon@2x.webp" alt="pcのアイコン">
-                    <p class="skill_ttl">Webデザイン</p>
+                    <p class="skill_ttl sp_only">Webデザイン</p>
+                    <img class="skill_web_lists_img" src="images/web_design_icon@2x.webp" alt="pcのアイコン">
+                    <p class="skill_ttl pc_only">Webデザイン</p>
+
                     <div class="skill_thumb skill_thumb_red pc_only">
                         <p class="skill_hover_ttl">Webデザイン</p>
                         <p class="skill_hover_txt">お客様の課題、ユーザーのニーズや目標を理解し、それに基づいた使いやすいデザインを提供します。</p>
                     </div>
+                    <div class="is_active sp_only">
+                        <p class="skill_hover_ttl"><span class="skill_hover_ttl_red">W</span>ebデザイン</p>
+                        <img class="skill_web_lists_img" src="images/web_design_icon@2x.webp" alt="pcのアイコン">
+                        <p class="skill_hover_txt">お客様の課題、ユーザーのニーズや目標を理解し、それに基づいた使いやすいデザインを提供します。</p>
+                    </div>
+
                 </a>
             </li>
             <li class="skill_green">
                 <a href="">
-                    <img class="skill_web_bnr" src="images/banner_icon@2x.webp" alt="スマホのアイコン">
-                    <p class="skill_ttl">バナー</p>
+                    <p class="skill_ttl sp_only">バナー</p>
+                    <img class="skill_web_lists_img skill_web_bnr" src="images/banner_icon@2x.webp" alt="スマホのアイコン">
+                    <p class="skill_ttl pc_only">バナー</p>
                     <div class="skill_thumb skill_thumb_green pc_only">
                         <p class="skill_hover_ttl">バナー</p>
                         <p class="skill_hover_txt">魅力的で目を引くデザインを作成し、クライアントのメッセージを効果的に伝えます。</p>
                     </div>
+                    <div class="is_active sp_only">
+                        <p class="skill_hover_ttl"><span class="skill_hover_ttl_green">バ</span>ナー</p>
+                        <img class="skill_web_lists_img" src="images/banner_icon@2x.webp" alt="スマホのアイコン">
+                        <p class="skill_hover_txt">魅力的で目を引くデザインを作成し、クライアントのメッセージを効果的に伝えます。</p>
+                    </div>
+
                 </a>
             </li>
             <li class="skill_yellow">
                 <a href="">
-                    <img src="images/coding_icon@2x.webp" alt="コードのアイコン">
-                    <p class="skill_ttl">コーディング</p>
+                    <p class="skill_ttl sp_only">コーディング</p>
+                    <img class="skill_web_lists_img" src="images/coding_icon@2x.webp" alt="コードのアイコン">
+                    <p class="skill_ttl pc_only">コーディング</p>
                     <div class="skill_thumb skill_thumb_yellow pc_only">
                         <p class="skill_hover_ttl">コーディング</p>
                         <p class="skill_hover_txt">HTML、CSSを使用しクリーンで効率的なコードを作成し、ウェブサイトのスムーズな動作実現します。</p>
                     </div>
+                    <div class="is_active sp_only">
+                        <p class="skill_hover_ttl"><span class="skill_hover_ttl yellow">コ</span>ーディング</p>
+                        <img class="skill_web_lists_img" src="images/coding_icon@2x.webp" alt="コードのアイコン">
+                        <p class="skill_hover_txt">HTML、CSSを使用しクリーンで効率的なコードを作成し、ウェブサイトのスムーズな動作実現します。</p>
+                    </div>
+
                 </a>
             </li>
             <li class="skill_blue">
                 <a href="">
-                    <img src="images/movie_icon@2x.webp" alt="動画のアイコン">
-                    <p class="skill_ttl">動画編集</p>
+                    <p class="skill_ttl sp_only">動画編集</p>
+                    <img class="skill_web_lists_img" src="images/movie_icon@2x.webp" alt="動画のアイコン">
+                    <p class="skill_ttl pc_only">動画編集</p>
                     <div class="skill_thumb skill_thumb_blue pc_only">
                         <p class="skill_hover_ttl">動画編集</p>
                         <p class="skill_hover_txt">クライアントの要件やビジョンを理解し、それに合った魅力的な動画編集を提供します。</p>
                     </div>
+                    <div class="is_active sp_only">
+                        <p class="skill_hover_ttl"><span class="skill_hover_ttl_blue">動</span>画編集</p>
+                        <img class="skill_web_lists_img" src="images/movie_icon@2x.webp" alt="動画のアイコン">
+                        <p class="skill_hover_txt">クライアントの要件やビジョンを理解し、それに合った魅力的な動画編集を提供します。</p>
+                    </div>
+
                 </a>
             </li>
         </ul>
@@ -189,22 +220,37 @@
         <ul>
             <li class="skill_red">
                 <a href="">
-                    <img src="images/print_icon@2x.webp" alt="チラシのアイコン">
-                    <p class="skill_ttl">チラシ・ポスター</p>
+                    <p class="skill_ttl sp_only">チラシ・ポスター</p>
+                    <img class="skill_graphic_lists_img" src="images/print_icon@2x.webp" alt="チラシのアイコン">
+                    <p class="skill_ttl pc_only">チラシ・ポスター</p>
                     <div class="skill_thumb skill_thumb_red pc_only">
                         <p class="skill_hover_ttl">チラシ・ポスター</p>
                         <p class="skill_hover_txt">テキストや画像のレイアウトを工夫し、情報をわかりやすく伝えお客様の課題解決に努めます。</p>
                     </div>
+                    <div class="is_active sp_only">
+                        <p class="skill_hover_ttl"><span class="skill_hover_ttl_red">チ</span>ラシ・ポスター</p>
+                        <img class="skill_graphic_lists_img" src="images/print_icon@2x.webp" alt="チラシのアイコン">
+                        <p class="skill_hover_txt">テキストや画像のレイアウトを工夫し、情報をわかりやすく伝えお客様の課題解決に努めます。</p>
+                    </div>
+
                 </a>
             </li>
             <li class="skill_blue">
                 <a href="">
-                    <img class="graphic_logoicon" src="images/logo_icon@2x.webp" alt="ロゴのアイコン">
-                    <p class="skill_ttl">ロゴ</p>
+                    <p class="is_active sp_only">ロゴ</p>
+                    <img class="skill_graphic_lists_img graphic_logoicon" src="images/logo_icon@2x.webp" alt="ロゴのアイコン">
+                    <p class="skill_ttl pc_only">ロゴ</p>
                     <div class="skill_thumb skill_thumb_blue pc_only">
                         <p class="skill_hover_ttl">ロゴ</p>
                         <p class="skill_hover_txt">お客様のビジョンと要望を理解し、それをロゴに反映させることを心がけています。</p>
                     </div>
+                    <div class="skill_thumb skill_thumb_blue pc_only">
+                        <p class="skill_hover_ttl"><span class="skill_hover_ttl_blue">ロ</span>ゴ</p>
+                        <img class="skill_graphic_lists_img graphic_logoicon" src="images/logo_icon@2x.webp"
+                            alt="ロゴのアイコン">
+                        <p class="skill_hover_txt">お客様のビジョンと要望を理解し、それをロゴに反映させることを心がけています。</p>
+                    </div>
+
                 </a>
             </li>
         </ul>

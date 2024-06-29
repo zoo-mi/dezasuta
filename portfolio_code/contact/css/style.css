@@ -1,0 +1,115 @@
+@charset "utf-8";
+.contact {
+  background-color: #fdf3e7;
+}
+.contact .contact_ttl {
+  max-width: 430px;
+  margin: 0 auto;
+  padding: 100px 0 65px;
+}
+.contact .contact_subttl {
+  display: block;
+  text-align: center;
+  font-size: 20px;
+  margin-top: -30px;
+}
+.contact .contact_txt_wrap {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 85px 0;
+  text-align: center;
+  border: #d0ab80 5px dotted;
+  background-color: #fffefc;
+  border-radius: 20px;
+}
+.contact .contact_txt_wrap .contact_txt {
+  font-size: 16px;
+  line-height: 1.7;
+}
+.contact .contact_form {
+  margin: 115px auto 0;
+  max-width: 660px;
+  padding-bottom: 55px;
+}
+.contact_form .contact_form_contents_wrap {
+  width: 660px;
+  margin: 0 auto;
+  border: #d0ab80 1px solid;
+  border-radius: 10px;
+  background-color: #fffefc;
+  padding: 10px 10px;
+  margin: 15px 0 45px;
+}
+.contact_form .contact_form_contents .contact_form_txt {
+  max-height: 200px;
+}
+.contact_form .contact_form_btn {
+  display: block;
+  font-size: 20px;
+  color: #909090;
+  background-color: #fffefc;
+  border: #d0ab80 1px solid;
+  border-radius: 30px;
+  padding: 20px 50px;
+  margin-top: 60px;
+  margin: 0 auto;
+}
+.contact_form .contact_form_btn:hover {
+  color: #fffefc;
+  background-color: #d0ab80;
+}
+.footer {
+  background-color: #fffefc;
+}
+@media screen and (max-width: 767px) {
+  .contact .contact_ttl {
+    max-width: 200px;
+    padding: 50px 0;
+  }
+  .contact .contact_subttl {
+    font-size: 14px;
+    margin-top: -15px;
+  }
+
+  .contact .contact_txt_wrap {
+    max-width: 315px;
+    margin: 0 auto;
+    padding: 30px 0;
+  }
+  .contact .contact_txt_wrap .contact_txt {
+    font-size: 12px;
+  }
+
+  .contact_form .contact_form_contents {
+    text-align: center;
+    font-size: 14px;
+  }
+  .contact_form .contact_form_contents_wrap {
+    width: 315px;
+    padding: 5px 5px;
+    margin: 5px 0 35px;
+  }
+  .contact_form .contact_form_btn {
+    font-size: 16px;
+    border-radius: 40px;
+    padding: 10px 40px;
+    margin-top: 40px;
+    max-width: 120px;
+    margin: 0 auto;
+  }
+}
+/* THANKS */
+.thanks_wrap {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.thanks_wrap .thanks_wrap_img {
+  max-width: 180px;
+  margin: 0 auto;
+}
+.thanks_wrap .thanks_wrap_txt {
+  font-size: 16px;
+  line-height: 2.6;
+  text-align: center;
+  position: relative;
+}

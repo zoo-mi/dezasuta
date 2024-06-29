@@ -13,13 +13,15 @@
     <link rel="stylesheet" href="../css/common.css">
     <link rel="stylesheet" href="css/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="../js/script.js"></script>
+
 
 </head>
 
 <body>
     <header>
         <div class="header">
-            <div class="header_logo"><a href="index.html"><img class="smiley_logo" src="../images/nav_logo@2x.webp"
+            <div class="header_logo"><a href="../index.html"><img class="smiley_logo" src="../images/nav_logo@2x.webp"
                         alt="SMILEY"></a></div>
 
             <div class="decoration_set">
@@ -37,12 +39,14 @@
             <div class="sp_btn"><span></span></div>
             <nav class="sp_nav">
                 <ul>
-                    <li><a href="index.html"><img src="../images/top_hover_nav@2x.webp" alt="TOP"></a>
+                    <li><a href="../index.html"><img src="../images/top_hover_nav@2x.webp" alt="TOP"></a>
                     </li>
-                    <li><a href="about.html"><img src="../images/about_hover_nav@2x.webp" alt="ABOUT US"></a></li>
-                    <li><a href="works.html"><img src="../images/works_hover_nav@2x.webp" alt="WORKS"></a>
+                    <li><a href="../about/index.html"><img src="../images/about_hover_nav@2x.webp" alt="ABOUT US"></a>
                     </li>
-                    <li><a href="contact.html"><img src="../images/contact_hover_nav@2x.webp" alt="CONTACT"></a>
+                    <li><a href="index.html"><img src="../images/works_hover_nav@2x.webp" alt="WORKS"></a>
+                    </li>
+                    <li><a href="../contact/index.html"><img src="../images/contact_hover_nav@2x.webp"
+                                alt="CONTACT"></a>
                     </li>
                 </ul>
             </nav>
@@ -52,23 +56,25 @@
     <div>
         <nav class="pc_nav">
             <ul>
-                <li class="nav_list01"><a href="index.html"><img src="../images/top_nav@2x.webp" alt="TOP">
+                <li class="nav_list01"><a href="../index.html"><img src="../images/top_nav@2x.webp" alt="TOP">
                         <div class="thumb"><img src="../images/top_hover_nav@2x.webp" alt=""></div>
                     </a></li>
-                <li class="nav_list02"><a href="about.html"><img src="../images/about_nav@2x.webp" alt="ABOUT US">
+                <li class="nav_list02"><a href="../about/index.html"><img src="../images/about_nav@2x.webp"
+                            alt="ABOUT US">
                         <div class="thumb02"><img src="../images/about_hover_nav@2x.webp" alt=""></div>
                     </a></li>
-                <li class="nav_list03"><a href="/works.html"><img src="../images/works_hover_nav@2x.webp" alt="WORKS">
+                <li class="nav_list03"><a href="index.html"><img src="../images/works_hover_nav@2x.webp" alt="WORKS">
                         <div class="thumb03"><img src="images/works_hover_nav@2x.webp" alt=""></div>
                     </a></li>
-                <li class="nav_list04"><a href="contact.html"><img src="../images/contact_nav@2x.webp" alt="CONTACT">
+                <li class="nav_list04"><a href="../contact/index.html"><img src="../images/contact_nav@2x.webp"
+                            alt="CONTACT">
                         <div class="thumb04"><img src="../images/contact_hover_nav@2x.webp" alt=""></div>
                     </a>
                 </li>
             </ul>
         </nav>
     </div>
-    <div class="works_page_top">
+    <div id="works" class="works_page_top">
         <h1 class="work_page_top_ttl"><img class="work_page_top_ttl_img" src="images/works_ttl@2x.webp"
                 alt="WORKS"><span class="work_page_top_subttl">制作一覧</span></h1>
     </div>
@@ -257,6 +263,7 @@
                         <p class="works_content_txt">ロゴデザイン<br>Illustrator<br>制作期間：30分</p>
                     </div>
                 </a></li>
+
             <li><a class="logo_container" href="#"><img class="logo_img logo_img03" src="images/yourcraft_logo@2x.webp"
                         alt="YourCraftのロゴ">
                     <div class="thumb works03">
@@ -264,19 +271,20 @@
                         <p class="works_content_txt">ロゴデザイン<br>Illustrator<br>制作期間：1時間</p>
                     </div>
                 </a></li>
-            <li><a class="logo_container" href="#"><img class="logo_img logo_img04" src="images/smiley_logo@2x.webp"
-                        alt="SMILEYのロゴ">
-                    <div class="thumb works04">
-                        <p class="works_content_ttl">SMILEY</p>
-                        <p class="works_content_txt">ロゴデザイン<br>Illustrator<br>制作期間：30分</p>
+            <div class="two_flex">
+                <li class="logo_lists04"><a class="logo_container" href="#"><img class="logo_img logo_img04"
+                            src="images/smiley_logo@2x.webp" alt="SMILEYのロゴ">
+                        <div class="thumb works04">
+                            <p class="works_content_ttl">SMILEY</p>
+                            <p class="works_content_txt">ロゴデザイン<br>Illustrator<br>制作期間：30分</p>
+                        </div>
+                    </a></li>
+                <li>
+                    <div class="coming">
+                        <p class="coming_txt">COMING SOON・・・</p>
                     </div>
-                </a></li>
-            <li>
-                <div class="coming">
-                    <p class="coming_txt">COMING SOON・・・</p>
-                </div>
-            </li>
-
+                </li>
+            </div>
         </ul>
     </section>
     <section class="contact">
@@ -296,15 +304,6 @@
             <p class="footer_txt"><small>&copy;2024 KazumiYamamori All Rights Reserved.</small></p>
         </div>
     </footer>
-    <script>
-        $(function () {
-            $('.sp_btn,.sp_nav li').on('click', function () {
-                $('.sp_nav').fadeToggle();
-                $('.sp_btn').toggleClass('open')
-            });
-        });
-
-    </script>
 </body>
 
 </html>

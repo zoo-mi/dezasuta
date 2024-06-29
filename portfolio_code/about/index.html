@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="../css/common.css">
     <link rel="stylesheet" href="css/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="../js/script.js"></script>
 </head>
 
 <body>
@@ -36,12 +37,13 @@
             <div class="sp_btn"><span></span></div>
             <nav class="sp_nav">
                 <ul>
-                    <li><a href="index.html"><img src="../images/top_hover_nav@2x.webp" alt="TOP"></a>
+                    <li><a href="../index.html"><img src="../images/top_hover_nav@2x.webp" alt="TOP"></a>
                     </li>
-                    <li><a href="about.html"><img src="../images/about_hover_nav@2x.webp" alt="ABOUT US"></a></li>
-                    <li><a href="works.html"><img src="../images/works_hover_nav@2x.webp" alt="WORKS"></a>
+                    <li><a href="index.html"><img src="../images/about_hover_nav@2x.webp" alt="ABOUT US"></a></li>
+                    <li><a href="../works/index.html"><img src="../images/works_hover_nav@2x.webp" alt="WORKS"></a>
                     </li>
-                    <li><a href="contact.html"><img src="../images/contact_hover_nav@2x.webp" alt="CONTACT"></a>
+                    <li><a href="../contact/index.html"><img src="../images/contact_hover_nav@2x.webp"
+                                alt="CONTACT"></a>
                     </li>
                 </ul>
             </nav>
@@ -51,16 +53,17 @@
     <div>
         <nav class="pc_nav">
             <ul>
-                <li class="nav_list01"><a href="index.html"><img src="../images/top_nav@2x.webp" alt="TOP">
+                <li class="nav_list01"><a href="../index.html"><img src="../images/top_nav@2x.webp" alt="TOP">
                         <div class="thumb"><img src="../images/top_hover_nav@2x.webp" alt=""></div>
                     </a></li>
-                <li class="nav_list02"><a href="about.html"><img src="../images/about_hover_nav@2x.webp" alt="ABOUT US">
+                <li class="nav_list02"><a href="index.html"><img src="../images/about_hover_nav@2x.webp" alt="ABOUT US">
                         <div class="thumb02"><img src="../images/about_hover_nav@2x.webp" alt=""></div>
                     </a></li>
-                <li class="nav_list03"><a href="works.html"><img src="../images/works_nav@2x.webp" alt="WORKS">
+                <li class="nav_list03"><a href="../works/index.html"><img src="../images/works_nav@2x.webp" alt="WORKS">
                         <div class="thumb03"><img src="../images/works_hover_nav@2x.webp" alt=""></div>
                     </a></li>
-                <li class="nav_list04"><a href="contact.html"><img src="../images/contact_nav@2x.webp" alt="CONTACT">
+                <li class="nav_list04"><a href="../contact/index.html"><img src="../images/contact_nav@2x.webp"
+                            alt="CONTACT">
                         <div class="thumb04"><img src="../images/contact_hover_nav@2x.webp" alt=""></div>
                     </a>
                 </li>
@@ -251,18 +254,6 @@
             <p class="footer_txt"><small>&copy;2024 KazumiYamamori All Rights Reserved.</small></p>
         </div>
     </footer>
-    <script>
-        $(function () {
-            $('.sp_btn,.sp_nav li').on('click', function () {
-                $('.sp_nav').fadeToggle();
-                $('.sp_btn').toggleClass('open')
-            });
-        });
-
-    </script>
-
-
-
 </body>
 
 </html>
